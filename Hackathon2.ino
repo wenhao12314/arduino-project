@@ -19,6 +19,11 @@ int LED=11;
 int brightness=255; // max Helligkeit von LED
 int Abnahme; // Fadeschritte von LED
 
+
+void noaction(){
+  
+}
+
 void setup() {
   pinMode(LED,OUTPUT);
   Serial.begin(9600);
